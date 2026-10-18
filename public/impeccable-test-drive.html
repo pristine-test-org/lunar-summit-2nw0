@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Summit notes · Lunar Summit</title>
+    <style>
+      body { margin: 0; font-family: system-ui, sans-serif; background: #fafaf7; color: #1c1c1c; }
+      header { max-width: 44rem; margin: 0 auto; padding: 1.25rem 1rem; }
+      /* Intentional, for Impeccable's test drive: link text under the 11px floor. */
+      header a { font-size: 10px; color: #2f7d4f; }
+      main { max-width: 44rem; margin: 0 auto; padding: 2rem 1rem; }
+      /* Intentional, for Impeccable's test drive: gradient text on the heading. */
+      h1 {
+        font-size: 2.5rem; margin: 0 0 1rem;
+        background: linear-gradient(90deg, #2f7d4f, #c2410c);
+        -webkit-background-clip: text; background-clip: text;
+        color: transparent; -webkit-text-fill-color: transparent;
+      }
+      /* Intentional, for Impeccable's test drive: low-contrast text, light grey on near-white. */
+      .note { color: #c9c9c4; line-height: 1.6; }
+      /* Intentional, for Impeccable's test drive: a colour that is not in the site's palette. */
+      .tag { display: inline-block; padding: 0.25rem 0.6rem; border-radius: 0.4rem; background: #7c3aed; color: #fff; }
+      /* Intentional, for Impeccable's test drive: a layout property in a transition. */
+      .bar { height: 0.6rem; width: 30%; background: #2f7d4f; border-radius: 0.3rem; transition: width 0.3s; }
+      .bar:hover { width: 90%; }
+      /* Intentional, for Impeccable's test drive: long body text flush with the viewport edges. */
+      .edge { margin: 2rem 0 0; padding: 0; position: relative; left: 50%; right: 50%; width: 100vw; margin-left: -50vw; line-height: 1.6; }
+    </style>
+  </head>
+  <body>
+    <header><a href="/">Back to Lunar Summit</a></header>
+    <main>
+      <h1>Summit notes</h1>
+      <p class="note">Three short notes from the last ascent, kept here so the list on the landing page has some company.</p>
+      <span class="tag">Fresh</span>
+      <div class="bar" role="img" aria-label="Progress toward the summit"></div>
+      <p class="edge">The route climbs slowly through the first camp, then steadies along the ridge before the final push to the top.</p>
+    </main>
+  </body>
+</html>
